@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@angular/cli": "^14.2.3",
+    "ng-circle-progress": "^1.6.0"
+  }
+}
