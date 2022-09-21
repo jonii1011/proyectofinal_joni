@@ -2,12 +2,12 @@
     padding: 20px;
     margin: 0;
     background-color: #DEDEDE;
+    overflow: hidden;
 }
-@media((max-width: 760px){
-    position: absolute;
-    width: 9%;
-    border-radius: 100%;
-    box-shadow: 4px 4px 4px white;
-    left: 1%;
-    top: 600px;
-})
+@media(max-width: 769px) {
+    div{
+        display: block;
+        margin: 0 auto;
+    }
+    }
+
