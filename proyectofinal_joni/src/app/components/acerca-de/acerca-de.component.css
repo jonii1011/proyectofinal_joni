@@ -13,54 +13,32 @@ div{
 h1{
     margin-top: 5.7%;
 }
-@media (min-width: 575px){
+@media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
         width: 10%;
         border-radius: 100%;
-        box-shadow: 4px 4px 4px white;
+        box-shadow: 3px 3px 3px white;
         left: 1%;
         top: 600px;
     }
 }
-@media (max-width: 576px){
+@media (max-width: 575px){
     #fotodeperfil{
-        position: absolute;
-        width: 26%;
+        display: block;
+        width: 35%;
+        margin: 0 auto;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px white;
-        left: 34%;
-        top: 580px;
+        box-shadow: 3px 3px 5px white;
+        left: 37%;
+    }
+    #nombre{
+        margin-top: 5%;
     }
 }
-@media (max-width: 441px){
-    #fotodeperfil{
-        position: absolute;
-        width: 29%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px white;
-        left: 34%;
-        top: 680px;
-    }
-}
-@media (max-width: 291px){
-    #fotodeperfil{
-        position: absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px white;
-        left: 34%;
-        top: 750px;
-    }
-}
-@media (max-width: 179px){
-    #fotodeperfil{
-        position: absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px white;
-        left: 34%;
-        top: 800px;
-    }
-}
+
+
+
+
+
 
